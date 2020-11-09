@@ -6,7 +6,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 <body>
 <div ng-app="myApp" ng-controller="myCtrl">
-    <h2>This is a demonstration of Controllers</h2>
+    <h2>This is an example of Controllers</h2>
     First Name: <input type="text" ng-model="firstName"><br>
     Last Name: <input type="text" ng-model="lastName"><br>
     <br>
@@ -21,7 +21,7 @@
     // noinspection JSValidateTypes
     app.controller('myCtrl', function($scope) {
         $scope.firstName = "Joe";
-        $scope.lastName = "Biden";
+        $scope.lastName = "Mama";
         $scope.fullName = function() {
             return $scope.firstName + " " + $scope.lastName;
         };
